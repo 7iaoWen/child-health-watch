@@ -110,3 +110,17 @@ PCB 采用 Altium Designer 双面板设计，遵循模拟/数字分区、电源�
 - 剧烈运动下血氧精度下降，需进一步优化滤波
 - 未集成 GPS 定位
 - 传感器校准可进一步优化
+## 硬件设计
+
+- 原理图与 PCB 见 `hardware/` 目录（Altium Designer 工程）
+- 双面板设计，模拟/数字分区，电源线加粗，单点接地
+
+## 实物展示
+
+| 总体框图 | PCB 设计 | 硬件调试 |
+|---|---|---|
+| ![架构](images/architecture.png) | ![PCB](images/pcb.png) | ![调试](images/hardware-debug.png) |
+
+| 整体实物 | OLED 显示 | 跌倒测试 |
+|---|---|---|
+| ![实物](images/device.png) | ![OLED](images/oled.png) | ![跌倒](images/fall-test.png) |
